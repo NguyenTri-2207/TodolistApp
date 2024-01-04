@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -21,10 +19,24 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "ngoctri2207.todolist"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "build": {
+      "android": {
+        "buildType": "apk",
+        "publish": {
+          "releaseChannel": "default"
+        }
+      }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "18ae9458-e8fb-4b27-b302-8f0081575f97"
+      }
     }
   }
 }
